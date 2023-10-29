@@ -1,11 +1,11 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "24465982"))
-api_hash = os.environ.get("API_HASH", "2b3131b7d3f6a42bd4ae1ba3b58c11c4")
-bot_token = os.environ.get("BOT_TOKEN", "5974054493:AAGNaK3vuyRtBfXloDXKO1ZpJ8YCTAjBnjk")
+api_id = int(os.environ.get("API_ID", "22918031"))
+api_hash = os.environ.get("API_HASH", "a5c57d945a1a1214edecb04cc18c6e70")
+bot_token = os.environ.get("BOT_TOKEN", "6932531449:AAHzm6eQ3L0o2mVo7_3Q6SkDdki5qNG8iuA")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://neko:<password>@nekomenfess.ss5r7je.mongodb.net/?retryWrites=true&w=majority")
+db_url = os.environ.get("DB_URL", "mongodb+srv://Alexa:alexa@cluster0.h0zqfue.mongodb.net/true?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
@@ -15,7 +15,7 @@ channel_3 = int(os.environ.get("CHANNEL_3", "-1001884106616"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001941178911"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "5633222043"))
+id_admin = int(os.environ.get("ID_ADMIN", "1450470255"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#NekoGirl #NekoBoy #NekoAsk #NekoFind #NekoSpill #NekoStory #NekoTalent").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#GJNGirl #GJNBoy #GJNAsk #GJNFind #GJNSpill #GJNStory #GJNTalent").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/387bdabb03deaf94fa4e9.jpg")
@@ -60,20 +60,20 @@ pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terleb
 start_msg = os.environ.get("START_MSG", """"
 {mention},Silahkan gunakan hastag:
 
-#NekoBoy / #NekoGirl untuk Mencari Pasangan,Teman , Partner dll
-#NekoAsk untuk Bertanya
-#NekoStory untuk Berbagi Cerita
-#NekoSpill untuk Spill Masalah
-#NekoFind untuk Mencari Pasangan, Teman, Partner dll
+#GJNBoy / #GJNGirl untuk Mencari Pasangan,Teman , Partner dll
+#GJNAsk untuk Bertanya
+#GJNStory untuk Berbagi Cerita
+#GJNSpill untuk Spill Masalah
+#GJNFind untuk Mencari Pasangan, Teman, Partner dll
 
 {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help""")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
 
-#NekoBoy / #NekoGirl untuk Mencari Pasangan, Teman , Partner dll
-#NekoAsk untuk Bertanya
-#NekoStory untuk Berbagi Cerita
-#NekoSpill untuk Spill Masalah
-#NekoFind untuk Mencari Pasangan, Teman, Partner dll
+#GJNBoy / #GJNGirl untuk Mencari Pasangan, Teman , Partner dll
+#GJNAsk untuk Bertanya
+#GJNStory untuk Berbagi Cerita
+#GJNSpill untuk Spill Masalah
+#GJNFind untuk Mencari Pasangan, Teman, Partner dll
 """)
