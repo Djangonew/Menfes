@@ -19,7 +19,7 @@ async def start_handler(client: Client, msg: types.Message):
     )
     mention = msg.from_user.mention
     markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton('shin', url='https://t.me/ohmyshinxD'),
+            [InlineKeyboardButton('shin', url='https://t.me/ohmyshinxD')],
             [InlineKeyboardButton('panjul', url='https://t.me/Anon197')]
         ])
     await msg.reply_text(
