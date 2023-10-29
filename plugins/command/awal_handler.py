@@ -15,7 +15,7 @@ async def start_handler(client: Client, msg: types.Message):
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Nocturnalonebeing'
+        else '@Callme99i'
     )
     mention = msg.from_user.mention
     await msg.reply_text(
@@ -126,7 +126,7 @@ async def help_handler(client, msg):
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
     pesan += '/talent — melihat talent\n'
-    pesan += '#FWBBoy / #FWBGirl untuk Mencari Pasangan,Teman , Partner dll #FWBAsk untuk Bertanya #FWBStory untuk Berbagi Cerita #FWBSpill untuk Spill Masalah #FWBFind untuk Mencari Pasangan, Teman, Partner dll'
+    pesan += '#GJNBoy / #GJNGirl untuk Mencari Pasangan,Teman , Partner dll #FWBAsk untuk Bertanya #GJNStory untuk Berbagi Cerita #GJNSpill untuk Spill Masalah #GJNFind untuk Mencari Pasangan, Teman, Partner dll'
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
