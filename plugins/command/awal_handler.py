@@ -126,7 +126,7 @@ async def help_handler(client, msg):
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
     pesan += '/talent — melihat talent\n'
-    pesan += '#GJNBoy / #GJNGirl untuk Mencari Pasangan,Teman , Partner dll #FWBAsk untuk Bertanya #GJNStory untuk Berbagi Cerita #GJNSpill untuk Spill Masalah #GJNFind untuk Mencari Pasangan, Teman, Partner dll'
+    pesan += '#GJNBoy / #GJNGirl untuk Mencari Pasangan,Teman , Partner dll #GJNAsk untuk Bertanya #GJNStory untuk Berbagi Cerita #GJNSpill untuk Spill Masalah #GJNFind untuk Mencari Pasangan, Teman, Partner dll'
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
