@@ -27,6 +27,7 @@ async def start_handler(client: Client, msg: types.Message):
             id=msg.from_user.id,
             mention=mention,
             username=username,
+            reply_markup=markup,
             first_name=await helper.escapeHTML(first),
             last_name=await helper.escapeHTML(last),
             fullname=await helper.escapeHTML(fullname),
