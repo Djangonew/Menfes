@@ -54,9 +54,9 @@ Untuk informasi lebih lanjut dan pemesanan, silakan hubungi @OwnNeko.
     ]
 
     DANA = """
-DANA : 081398871823
+DANA : 089636652397
 """
 
     QRIS = """
- Klik Disini </b><a href='https://telegra.ph/file/3a8701cb42f9af1483800.jpg'>QRIS BrotherCloth</a>
+ Klik Disini </b><a href=''>QRIS </a>
 """
