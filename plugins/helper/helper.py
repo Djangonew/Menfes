@@ -115,7 +115,7 @@ class Helper():
             pesan += f"├ Kirim pesan -: <a href='tg://openmessage?user_id={self.user_id}'>{await self.escapeHTML(self.fullname)}</a>\n"
             pesan += f"└ Telegram Premium -: {'✅' if self.premium else '❌'}"
         else:
-            pesan = "Jangan Lupa main bot @chatjomblohalu_bot"
+            pesan = "Jangan Lupa join Channel @Callmee99i"
         await self.bot.send_message(config.channel_log, pesan, enums.ParseMode.HTML, disable_web_page_preview=True)
 
     def formatrupiah(self, uang):
