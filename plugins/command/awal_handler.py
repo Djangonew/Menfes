@@ -15,10 +15,10 @@ async def start_handler(client: Client, msg: types.Message):
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Callme99i'
+        else '@Anon197'
     )
     mention = msg.from_user.mention
-    buttons = [[InlineKeyboardButton("panjul", url="https://t.me/Anon197")]]
+    buttons = [[InlineKeyboardButton("Help", url="https://t.me/menfess_jawa/9")]] [[InlineKeyboardButton("Rules", url="https://t.me/menfess_jawa/7")]]
     await msg.reply_text(
         text=config.start_msg.format(
             id=msg.from_user.id,
@@ -46,7 +46,7 @@ async def status_handler(client: Client, msg: types.Message):
     pesan += f'├Semua Menfess : {db.all_menfess}\n'
     pesan += f'└Bergabung : {db.sign_up}'
     # Load the image
-    image = Image.open('20230508_142127.jpg')  # Replace with the actual image path
+    image = Image.open()  # Replace with the actual image path
 
     # Create a BytesIO stream to save the image
     image_stream = BytesIO()
@@ -62,12 +62,6 @@ async def statistik_handler(client: Helper, id_bot: int):
     pesan = "<b>📊 STATISTIK BOT\n\n"
     pesan += f"▪️Pelanggan: {db.get_pelanggan().total_pelanggan}\n"
     pesan += f"▪️Admin: {len(bot.admin)}\n"
-    pesan += f"▪️Talent: {len(bot.talent)}\n"
-    pesan += f"▪️Daddy sugar: {len(bot.daddy_sugar)}\n"
-    pesan += f"▪️Moans girl: {len(bot.moansgirl)}\n"
-    pesan += f"▪️Moans boy: {len(bot.moansboy)}\n"
-    pesan += f"▪️Girlfriend rent: {len(bot.gfrent)}\n"
-    pesan += f"▪️Boyfriend rent: {len(bot.bfrent)}\n"
     pesan += f"▪️Banned: {len(bot.ban)}\n\n"
     pesan += f"🔰Status bot: {'AKTIF' if bot.bot_status else 'TIDAK AKTIF'}</b>"
     await client.message.reply_text(pesan, True, enums.ParseMode.HTML)
@@ -110,7 +104,7 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Nocturnalonebeing'
+        else '@Anon197'
     )
     mention = msg.from_user.mention
     return await msg.reply(config.gagalkirim_msg.format(
@@ -127,8 +121,7 @@ async def help_handler(client, msg):
     member = db.get_data_pelanggan()
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
-    pesan += '/talent — melihat talent\n'
-    pesan += '#GJNBoy / #GJNGirl untuk Mencari Pasangan,Teman , Partner dll #GJNAsk untuk Bertanya #GJNStory untuk Berbagi Cerita #GJNSpill untuk Spill Masalah #GJNFind untuk Mencari Pasangan, Teman, Partner dll'
+    pesan += '• #mba     ( identitas perempuan ) • #mas     ( identitas laki-laki ) • #pap      ( pap foto/video ) • #quote  ( kata-katamu ) • #tanya   ( bertanya tentang apapun ) • #curhat ( berbagi cerita/keluhan )'
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
@@ -153,14 +146,6 @@ async def help_handler(client, msg):
         pesan += '/list_ban — melihat list banned\n'
         pesan += '/stats — melihat statistik bot\n'
         pesan += '/bot — setbot (on|off)\n'
-        pesan += '\n=====FITUR TALENT=====\n'
-        pesan += '/addtalent — menambahkan talent baru\n'
-        pesan += '/addsugar — menambahkan talent daddy sugar\n'
-        pesan += '/addgirl — menambahkan talent moans girl\n'
-        pesan += '/addboy — menambahkan talent moans boy\n'
-        pesan += '/addgf — menambahkan talent girlfriend rent\n'
-        pesan += '/addbf — menambahkan talent boyfriend rent\n'
-        pesan += '/hapus — menghapus talent\n'
         pesan += '\n=====BROADCAST OWNER=====\n'
         pesan += '/broadcast — mengirim pesan broadcast kesemua user\n'
         pesan += '/admin — menambahkan admin baru\n'
@@ -180,7 +165,7 @@ async def reply_with_image_text(client: Client, msg: types.Message, text: str, i
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@OwnNeko'
+        else '@Anon197'
     )
     mention = msg.from_user.mention
     with Image.open(image_path) as image:
