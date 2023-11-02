@@ -1,15 +1,13 @@
 {
-  "name": "NekoMenfess",
+  "name": "GJNautopost",
   "description": "Mengirim pesan ke channel Telegram secara anonymous",
   "keywords": [
     "Telegram",
     "menfess",
-    "fwb"
   ],
   "repository": "https://github.com/nekolocal/nekomenfess/tree/main",
-  "logo": "https://telegra.ph/file/2d46007dd7d22645c4ec3.jpg",
   "env": {
-    "BOT_TOKEN": {
+    "BOT_TOKEN": {6801456940:AAGPL8PMlLxCLbem-i21aGb2Pfu_05KtfoA
       "description": "Masukkan token bot kamu, didapatkan dari @Botfather",
       "value": "your_bot_token_here"
     },
@@ -49,90 +47,9 @@
       "description": "Batas kirim menfess per hari",
       "value": "5"
     },
-    "BATAS_TALENT": {
-      "description": "Batas top talent",
-      "value": "10"
-    },
-    "BATAS_DADDY_SUGAR": {
-      "description": "Batas top daddy sugar",
-      "value": "10"
-    },
-    "BATAS_MOANSGIRL": {
-      "description": "Batas top moans girl",
-      "value": "10"
-    },
-    "BATAS_MOANSBOY": {
-      "description": "Batas top moans boy",
-      "value": "10"
-    },
-    "BATAS_GFRENT": {
-      "description": "Batas top girlfriend rent",
-      "value": "10"
-    },
-    "BATAS_BFRENT": {
-      "description": "Batas top boyfriend rent",
-      "value": "10"
-    },
     "BIAYA_KIRIM": {
       "description": "Biaya kirim user menfess",
       "value": "10"
-    },
-    "BIAYA_TALENT": {
-      "description": "Biaya rating user ke talent FWB",
-      "value": "80"
-    },
-    "BIAYA_DADDY_SUGAR": {
-      "description": "Biaya rating user ke daddy sugar FWB",
-      "value": "50"
-    },
-    "BIAYA_MOANSGIRL": {
-      "description": "Biaya rating user ke moans girl FWB",
-      "value": "40"
-    },
-    "BIAYA_MOANSBOY": {
-      "description": "Biaya rating user ke moans boy FWB",
-      "value": "50"
-    },
-    "BIAYA_GFRENT": {
-      "description": "Biaya rating user ke girl friend rent FWB",
-      "value": "40"
-    },
-    "BIAYA_BFRENT": {
-      "description": "Biaya rating user ke boy friend rent FWB",
-      "value": "50"
-    },
-    "HASTAG": {
-      "description": "Menambahkan hastag, dipisahkan dengan spasi (#nekogirl wajib di awal dan #nekoboy setelah nekogirl)",
-      "value": "#NekoGirl #NekoBoy #NekoAsk #NekoFind #NekoSpill #NekoStory"
-    },
-    "PIC_BOY": {
-      "description": "Gambar FWB boy",
-      "value": "https://telegra.ph/file/387bdabb03deaf94fa4e9.jpg"
-    },
-    "PIC_TALENTGIRL": {
-      "value": "https://telegra.ph/file/95801451d752f089f8e1e.jpg"
-    },
-    "PIC_GIRL": {
-      "description": "Gambar FWB girl",
-      "value": "https://telegra.ph/file/2bc2dc1fad8e33cf69e6d.jpg"
-    },
-    "PIC_DADDYSUGAR": {
-      "value": "https://telegra.ph/file/14ca710511333621be61d.jpg"
-    },
-    "PIC_MOANSGIRL": {
-      "value": "https://telegra.ph/file/10232ac2404b3e822f99d.jpg"
-    },
-    "PIC_MOANSBOY": {
-      "value": "https://telegra.ph/file/90359cf42550732058d20.jpg"
-    },
-    "PIC_GFRENT": {
-      "value": "https://telegra.ph/file/432e8cb26179ade6eba70.jpg"
-    },
-    "PIC_BFRENT": {
-      "value": "https://telegra.ph/file/e0dc732430d9b1b0cbfa1.jpg"
-    },
-    "PIC_OWNER": {
-      "value": "https://telegra.ph/file/f58b957f34a978524f07a.jpg"
     },
     "PESAN_JOIN": {
       "description": "Pesan join grup, atau akses ditolak",
@@ -140,13 +57,29 @@
     },
     "START_MSG": {
       "description": "Pesan start pada bot",
-      "value": "Hai {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. Ketik /help"
+      "value": "Hai {fullname} 𝗚𝗝𝗡 𝗔𝘂𝘁𝗼 𝗣𝗼𝘀𝘁 adalah bot auto post pesan yang anda kirim akan masuk ke channel @MENFESS_JAWA silahkan baca help dan rules terlebih dahulu."
+    
+    Help = [
+        [InlineKeyboardButton("<b>silahkan kirim pesan anda menggunakan hashtag di bawah ini:</b> • <code>#mba</code>       [ identitas perempuan ] • <code>#mas</code>       [ identitas laki-laki ] • <code>#pap</code>       [ pap foto/video ] • <code>#quote</code>   [ kata-katamu ] • <code>#tanya</code>   [ bertanya tentang apapun ] • <code>#curhat</code> [ berbagi cerita/keluhan ] <b>Contoh pesan</b> : <code>#mas gabut banget, kak. callan yuk {username}</code> <b>jangan lupa baca rules dan help terlebih dahulu</b>", callback_data="Help")]
+    
+    Rules = [
+        [InlineKeyboardButton("https://t.me/menfess_jawa/7", callback_data="Rules")]
+      
+      Close = [
+        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+    
     },
     "GAGAL_KIRIM": {
       "description": "Pesan ketika hastag yang diketik tidak sesuai",
-      "value": "{mention}, pesanmu gagal terkirim. Silahkan gunakan hastag:\n\n#NekoBoy / #NekoGirl untuk Mencari Pasangan, Teman, Partner dll\n#NekoAsk untuk Bertanya\n#NekoStory untuk Berbagi Cerita\n#NekoSpill untuk Spill Masalah\n#NekoFind untuk Mencari Pasangan, Teman, Partner dll"
-    }
-  },
+      "value": "{mention}, pesanmu gagal terkirim. Silahkan gunakan button help jika butuh bantuan."
+    
+      Help = [
+        [InlineKeyboardButton("<b>silahkan kirim pesan anda menggunakan hashtag di bawah ini:</b> • <code>#mba</code>       [ identitas perempuan ] • <code>#mas</code>       [ identitas laki-laki ] • <code>#pap</code>       [ pap foto/video ] • <code>#quote</code>   [ kata-katamu ] • <code>#tanya</code>   [ bertanya tentang apapun ] • <code>#curhat</code> [ berbagi cerita/keluhan ] <b>Contoh pesan</b> : <code>#mas gabut banget, kak. callan yuk {username}</code> <b>jangan lupa baca rules dan help terlebih dahulu</b>", callback_data="Help")]
+      
+      Close = [
+        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+
+    },
   "addons": [
     {
       "plan": "heroku-postgresql",
