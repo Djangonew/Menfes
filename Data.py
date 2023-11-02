@@ -30,7 +30,7 @@ class Data:
    - Tampilan statistik unduhan file.
    - Dukungan untuk berbagai jenis file.
 
-Untuk informasi lebih lanjut dan pemesanan, silakan hubungi @OwnNeko.
+Untuk informasi lebih lanjut dan pemesanan, silakan hubungi @Anon197.
 """
 
     close = [
@@ -54,7 +54,7 @@ Untuk informasi lebih lanjut dan pemesanan, silakan hubungi @OwnNeko.
     ]
 
     DANA = """
-DANA : 089636652397
+DANA : 085954061354
 """
 
     QRIS = """
