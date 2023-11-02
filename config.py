@@ -32,11 +32,7 @@ hastag = os.environ.get("HASTAG", "#mas #mba #pap #tanya #quote #curhat").replac
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
 start_msg = os.environ.get("START_MSG", """"
-Hai {mention} 👋🏻
-
-𝗚𝗝𝗡 𝗔𝘂𝘁𝗼 𝗣𝗼𝘀𝘁 adalah bot auto post pesan yang anda kirim akan masuk ke channel @MENFESS_JAWA
-
-silahkan baca help dan rules terlebih dahulu.)
+Hai {mention} 👋🏻 𝗚𝗝𝗡 𝗔𝘂𝘁𝗼 𝗣𝗼𝘀𝘁 adalah bot auto post pesan yang anda kirim akan masuk ke channel @MENFESS_JAWA silahkan baca help dan rules terlebih dahulu.)
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim. <b>silahkan klik button</b> help bila butuh bantuan.)
