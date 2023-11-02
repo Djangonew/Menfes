@@ -11,7 +11,7 @@ db_name = os.environ.get("DB_NAME", "menfess")
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001998341695"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1002066923405"))
-channel_3 = int(os.environ.get("CHANNEL_3", -1002132366739"))
+channel_3 = int(os.environ.get("CHANNEL_3", "-1002132366739"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001997868124"))
 # =========================================================== #
 
