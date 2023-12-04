@@ -119,11 +119,11 @@ async def help_handler(client, msg):
     member = db.get_data_pelanggan()
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
-    pesan += '#LpmBoy / #LpmGirl untuk Mencari Pasangan,Teman , Partner dll
+    pesan += """#LpmBoy / #LpmGirl untuk Mencari Pasangan,Teman , Partner dll
 #LpmAsk untuk Bertanya
 #LpmStory untuk Berbagi Cerita
 #LpmSpill untuk Spill Masalah
-#LpmFind untuk Mencari Pasangan, Teman, Partner dll'
+#LpmFind untuk Mencari Pasangan, Teman, Partner dll"""
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
