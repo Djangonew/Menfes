@@ -167,7 +167,7 @@ async def reply_with_image_text(client: Client, msg: types.Message, text: str, i
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Anon197'
+        else '@dontnicetry'
     )
     mention = msg.from_user.mention
     with Image.open(image_path) as image:
