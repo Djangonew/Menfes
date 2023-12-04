@@ -32,7 +32,7 @@ pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/29f37bd3ec339afc
 
 #=========================================================== #
 
-hastag = os.environ.get("HASTAG", "#LpmGirl #LpmBoy #LpmAsk #LpmFind #LpmSpill #LpmStory").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#LpmGirl #LpmBoy #LpmAsk #LpmPap #LpmSpill #LpmStory").replace(" ", "|").lower()
 
 # =========================================================== #
 
@@ -44,7 +44,7 @@ start_msg = os.environ.get("START_MSG", """"
 #LpmAsk untuk Bertanya
 #LpmStory untuk Berbagi Cerita
 #LpmSpill untuk Spill Masalah
-#LpmFind untuk Mencari Pasangan, Teman, Partner dll
+#LpmPap untuk Mengirim pap jangan terlalu brutal sewajarnya!!! (boleh isi dengan kata") dll
 
 {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help""")
 
