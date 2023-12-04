@@ -31,7 +31,7 @@ hastag = os.environ.get("HASTAG", "#kak #abang #pap #tanya #quote #curhat").repl
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
-start_msg = os.environ.get("START_MSG", """
+start_msg = os.environ.get """("START_MSG",
 Hai {mention} 👋🏻 ʟᴘᴍ ᴍᴇɴғᴇs x ɴᴇʀᴏ adalah bot auto post pesan yang anda kirim akan masuk ke channel @lpmnero silahkan baca help dan rules terlebih dahulu.) """
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM",
