@@ -9,8 +9,8 @@ db_url = os.environ.get("DB_URL", "mongodb+srv://Alexa:alexa@cluster0.h0zqfue.mo
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1002030295294"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1002060665099"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001993237586"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1002030295294"))
 channel_3 = int(os.environ.get("CHANNEL_3", "-1001993237586"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001710755987"))
 # =========================================================== #
