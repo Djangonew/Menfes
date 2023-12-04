@@ -123,7 +123,7 @@ async def help_handler(client, msg):
 #LpmAsk untuk Bertanya
 #LpmStory untuk Berbagi Cerita
 #LpmSpill untuk Spill Masalah
-#LpmPap untuk Mengirim pap jangan terlalu brutal sewajarnya!!! (boleh isi dengan kata") dll"""
+#LpmPap untuk Mengirim pap jangan terlalu brutal sewajarnya!!! ,boleh isi dengan kata dll"""
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
