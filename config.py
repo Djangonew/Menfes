@@ -44,7 +44,7 @@ start_msg = os.environ.get("START_MSG", """"
 #LpmAsk untuk Bertanya
 #LpmStory untuk Berbagi Cerita
 #LpmSpill untuk Spill Masalah
-#LpmPap untuk Mengirim pap jangan terlalu brutal sewajarnya!!! (boleh isi dengan kata") dll
+#LpmPap untuk Mengirim pap jangan terlalu brutal sewajarnya!!! ,boleh isi dengan kata dll
 
 {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help""")
 
