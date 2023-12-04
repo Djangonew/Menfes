@@ -52,7 +52,7 @@ async def status_handler(client: Client, msg: types.Message):
     #image_stream.seek(0)
 
     # Reply with the photo and description
-    await msg.reply_photo(photo=image_stream, caption=pesan, parse_mode=enums.ParseMode.HTML)
+   # await msg.reply_photo(photo=image_stream, caption=pesan, parse_mode=enums.ParseMode.HTML)
     
 async def statistik_handler(client: Helper, id_bot: int):
     db = Database(client.user_id)
