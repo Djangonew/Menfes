@@ -15,10 +15,9 @@ async def start_handler(client: Client, msg: types.Message):
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Anon197'
+        else '@dontnicetry'
     )
     mention = msg.from_user.mention
-    buttons = [[InlineKeyboardButton("Help", url="https://t.me/menfess_jawa/9")]] [[InlineKeyboardButton("Rules", url="https://t.me/menfess_jawa/7")]]
     await msg.reply_text(
         text=config.start_msg.format(
             id=msg.from_user.id,
