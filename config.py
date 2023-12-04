@@ -24,6 +24,9 @@ batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
 
 biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "25"))
 
+-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/71bfda32ec9ff478aa314.jpg")
+-pic_girl = os.environ.get("PIC_GIRL", https://telegra.ph//file/c0f732bfb29a7a2be3aa5.jpg")
+
 # =========================================================== #
 
 hastag = os.environ.get("HASTAG", "#LpmGirl #LpmBoy #LpmAsk #LpmFind #LpmSpill #LpmStory").replace(" ", "|").lower()
