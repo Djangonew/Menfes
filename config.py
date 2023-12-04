@@ -31,8 +31,23 @@ hastag = os.environ.get("HASTAG", "#kak #abang #pap #tanya #quote #curhat").repl
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
-start_msg = os.environ.get """("START_MSG",
-Hai {mention} 👋🏻 ʟᴘᴍ ᴍᴇɴғᴇs x ɴᴇʀᴏ adalah bot auto post pesan yang anda kirim akan masuk ke channel @lpmnero silahkan baca help dan rules terlebih dahulu.) """
+start_msg = os.environ.get("START_MSG", """"
+{mention},Silahkan gunakan hastag:
 
-gagalkirim_msg = os.environ.get("GAGAL_KIRIM",
-{mention}, pesan mu gagal terkirim. <b>silahkan klik button</b> help bila butuh bantuan.)
+#LpmBoy / #LpmGirl untuk Mencari Pasangan,Teman , Partner dll
+#LpmAsk untuk Bertanya
+#LpmStory untuk Berbagi Cerita
+#LpmSpill untuk Spill Masalah
+#LpmFind untuk Mencari Pasangan, Teman, Partner dll
+
+{fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help""")
+
+gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
+{mention}, pesan mu gagal terkirim silahkan gunakan hastag:
+
+#LpmBoy / #LpmGirl untuk Mencari Pasangan,Teman , Partner dll
+#LpmAsk untuk Bertanya
+#LpmStory untuk Berbagi Cerita
+#LpmSpill untuk Spill Masalah
+#LpmFind untuk Mencari Pasangan, Teman, Partner dll
+""")
