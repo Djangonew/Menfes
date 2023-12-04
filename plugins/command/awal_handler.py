@@ -102,7 +102,7 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
     username = (
         f'@{msg.from_user.username}'
         if msg.from_user.username
-        else '@Anon197'
+        else '@dontnicetry'
     )
     mention = msg.from_user.mention
     return await msg.reply(config.gagalkirim_msg.format(
@@ -119,7 +119,11 @@ async def help_handler(client, msg):
     member = db.get_data_pelanggan()
 
     pesan = "Supported commands\n" + '/status — melihat status\n'
-    pesan += '• #mba     ( identitas perempuan ) • #mas     ( identitas laki-laki ) • #pap      ( pap foto/video ) • #quote  ( kata-katamu ) • #tanya   ( bertanya tentang apapun ) • #curhat ( berbagi cerita/keluhan )'
+    pesan += '#LpmBoy / #LpmGirl untuk Mencari Pasangan,Teman , Partner dll
+#LpmAsk untuk Bertanya
+#LpmStory untuk Berbagi Cerita
+#LpmSpill untuk Spill Masalah
+#LpmFind untuk Mencari Pasangan, Teman, Partner dll'
 
     # Tambahkan InlineKeyboardButton "JASA" di sini
     keyboard = [
