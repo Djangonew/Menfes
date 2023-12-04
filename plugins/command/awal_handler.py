@@ -47,8 +47,8 @@ async def status_handler(client: Client, msg: types.Message):
    # image = Image.open('6013786300345332276_x.jpg')  # Replace with the actual image path
 
     # Create a BytesIO stream to save the image
-    image_stream = BytesIO()
-    image.save(image_stream, format='JPEG')
+   # image_stream = BytesIO()
+   # image.save(image_stream, format='JPEG')
     image_stream.seek(0)
 
     # Reply with the photo and description
