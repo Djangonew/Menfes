@@ -49,7 +49,7 @@ async def status_handler(client: Client, msg: types.Message):
     # Create a BytesIO stream to save the image
    # image_stream = BytesIO()
    # image.save(image_stream, format='JPEG')
-    image_stream.seek(0)
+    #image_stream.seek(0)
 
     # Reply with the photo and description
     await msg.reply_photo(photo=image_stream, caption=pesan, parse_mode=enums.ParseMode.HTML)
