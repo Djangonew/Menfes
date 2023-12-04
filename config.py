@@ -26,7 +26,7 @@ biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "25"))
 
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#kak #abang #pap #tanya #quote #curhat").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#LpmGirl #LpmBoy #LpmAsk #LpmFind #LpmSpill #LpmStory").replace(" ", "|").lower()
 
 # =========================================================== #
 
